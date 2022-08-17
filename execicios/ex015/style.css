@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(27, 27, 27);
+    text-align: justify;
+}
+h1, h2{
+    color: mintcream;}
+p{
+    color: mintcream;}
+a{
+    color: aliceblue;
+}

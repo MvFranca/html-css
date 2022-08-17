@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'minecraft';
+    src: url(fonts/Minecraft.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+ } 
+
+:root{
+    --cor1:#1f2224;
+    --cor2:#615434;
+    --cor3:#402D1F;
+    --cor4:#0E2414;
+    --cor5:#1C5B0D;
+
+}
+p{
+        color: white;
+}
+
+body{
+    background-color: rgb(14, 12, 12);
+}
+
+
+header{
+    background-color: var(--cor1);
+    color: white;
+    min-height: 60px;
+    display: flex ;
+    justify-content: space-around;
+ 
+    
+}
+
+
+header a{
+ text-decoration: none;   
+ color: #53af3a;
+ margin: 0px 0px 0px 3px;
+ display: inline-block;
+ padding: 20px 10px 20px 10px;
+ border-radius: 3px;
+ 
+}
+
+header a:hover{
+    background-color: var(--cor2);
+    color: white;
+    transition-duration: 1s;
+}
+
+section h1{
+    padding-left: 60px;
+    margin-left: 30px;
+   margin-top: 10px ;
+   display: inline-block;
+
+}
+
+h1{
+    font-family: 'minecraft';
+    letter-spacing: 1.5px;
+    font-size: 28pt;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.397);
+    
+}
+
+nav{
+    background-color: var(--cor1);
+}
+
+#rodape{
+    display: flex;
+}
+
+#rodape img{
+    display: block;
+    margin: auto;
+   width: 90%;
+   height: 450px;
+   margin-bottom: 20px;
+   border-radius: 0px 0px 5px 5px ;
+}
+
+#rodape img:hover{
+}
+
+hr{
+    margin-bottom: 10px;
+    
+}
+
+.conteudo{
+       display: flex;
+    background-color: var(--cor4);
+    height: 400px;
+    width: 97%;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.conteudo img{
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.conteudo img:hover{
+    height: 280px;
+    transition-duration: 1s;
+}
+
+.conteudo  h2{
+    margin-top: 50px;
+}
+
+h2{
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.479);
+}
+
+.conteudo  .noticias p{
+    margin-top: 15px;
+    width: 600px;
+    text-align: justify;
+}
+
+.conteudo   a{
+    text-decoration: none;
+    color: white;
+}
+
+.conteudo  a:hover{
+    color: var(--cor2);
+}
+
+.conteudo-video{
+    display: flex;
+    background-color: var(--cor4);
+    height: 400px;
+    width: 1100px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.conteudo-video iframe{
+    margin-top: 55px;
+    border-radius: 7px;
+}
+
+
+
+footer{
+    background-color: var(--cor1);
+    margin-top: 20px;
+    padding-top: 20px;
+    text-align: center;
+    height: 30px;
+}
