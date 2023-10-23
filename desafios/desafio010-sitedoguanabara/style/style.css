@@ -63,6 +63,10 @@ nav{
     background-color: var(--cor4);
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.342);
     padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 nav a{
@@ -191,4 +195,16 @@ footer a{
 footer a:hover{
     text-decoration: underline;
     color: var(--cor2);
+}
+
+@media screen and (max-width: 780px) {
+
+    header h1{
+        font-size: 2em;
+    }
+
+    header p{
+        padding-bottom: 25px;
+        font-size: 1em;
+    }
 }
